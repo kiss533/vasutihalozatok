@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Vasutihalozatok.Entity
 {
-    class Person
+  public  class Person
     {
-        private string nev;
-        private string jelszo;
+        public string nev { get; set; }
+       enum allas {user , admin};
+        public string jelszo { get; set; }
 
     }
 }
