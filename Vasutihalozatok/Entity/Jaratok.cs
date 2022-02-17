@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Vasutihalozatok.Entity
 {
-     class Jaratok
+     class Jaratok : Azon
     {
         public City kiidnulo_varos { get; set; }
         public City megerkezo_varos { get; set; }
-        public List<City> allomasok { get; set; }
+        public string idotartalom { get; set; }
+       
+    //    public virtual ICollection<City> allomasok { get; set; }
 
     }
 }

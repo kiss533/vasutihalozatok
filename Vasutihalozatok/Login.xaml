@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="A folytatáshoz be kell jelentkeznie!" HorizontalAlignment="Left" Margin="288,36,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="587,382,0,0" Width="153" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="300,199,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="300,294,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>
