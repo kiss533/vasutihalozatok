@@ -5864,23 +5864,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP 250\\.nuget\\packages\\": {},
+    "C:\\Users\\Suli\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\user\\user.csproj",
+      "projectUniqueName": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\user\\user.csproj",
       "projectName": "user",
-      "projectPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\user\\user.csproj",
-      "packagesPath": "C:\\Users\\HP 250\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\user\\obj\\",
+      "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\user\\user.csproj",
+      "packagesPath": "C:\\Users\\Suli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\user\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP 250\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Suli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5895,8 +5898,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
-              "projectPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj"
+            "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
+              "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj"
             }
           }
         }
@@ -5948,7 +5951,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

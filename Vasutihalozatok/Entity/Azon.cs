@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vasutihalozatok.Entity
 {
-    class Azon
+    public class Azon
     {
         public int id { get; set; }
     }

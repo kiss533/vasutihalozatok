@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Vasutihalozatok.Entity;
 
 namespace Vasutihalozatok
 {
@@ -19,9 +20,38 @@ namespace Vasutihalozatok
     /// </summary>
     public partial class Login : Window
     {
+        private Datatextcontent datatextcontent = Datatextcontent.Instance;
         public Login()
         {
             InitializeComponent();
+
+
+            // jart.IsVisible = false;
+        }
+
+        private void btn_testDb_Click(object sender, RoutedEventArgs e)
+        {
+            Person person = new Person()
+            {
+                nev = "Feri",
+                jelszo = "asd"
+            };
+
+            datatextcontent.Felhasznalok.Add(person);
+            datatextcontent.SaveChanges();
+
+            Jaratok J = new Jaratok();
+
+            J.Show();
+            
+        }
+
+        private void regisgomb_Click(object sender, RoutedEventArgs e)
+        {
+
+            Register reg = new Register();
+            reg.Show();
+
         }
     }
 }

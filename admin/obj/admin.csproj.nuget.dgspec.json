@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\admin\\admin.csproj": {}
+    "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\admin\\admin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\admin\\admin.csproj": {
+    "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\admin\\admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\admin\\admin.csproj",
+        "projectUniqueName": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\admin\\admin.csproj",
         "projectName": "admin",
-        "projectPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\admin\\admin.csproj",
-        "packagesPath": "C:\\Users\\HP 250\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\admin\\obj\\",
+        "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\admin\\admin.csproj",
+        "packagesPath": "C:\\Users\\Suli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP 250\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Suli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +34,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
-                "projectPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj"
+              "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
+                "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj"
               }
             }
           }
@@ -85,24 +87,26 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
+    "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+        "projectUniqueName": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
         "projectName": "Vasutihalozatok",
-        "projectPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
-        "packagesPath": "C:\\Users\\HP 250\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP 250\\source\\repos\\Vasutihalozatok\\Vasutihalozatok\\obj\\",
+        "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+        "packagesPath": "C:\\Users\\Suli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP 250\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Suli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -166,7 +170,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

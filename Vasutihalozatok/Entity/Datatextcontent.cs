@@ -7,32 +7,35 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Vasutihalozatok.Entity
 {
-    class Datatextcontent : DbContext
+    public class Datatextcontent : DbContext
     {
+        private static Datatextcontent datatextcontent;
 
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public static Datatextcontent Instance
         {
-
-
-
-
-
-         //   modelBuilder.Entity<City>().HasOne(x => x.varos).WithMany(x => x.a);
-
-            modelBuilder.Entity<Jaratok>().HasOne(x => x.kiidnulo_varos).WithMany(x => x.osszjarat);
-          //  modelBuilder.Entity<Jaratok>().HasOne(x => x.megerkezo_varos).WithMany(x => x.osszjarat);
+            get
+            {
+                if (datatextcontent == null)
+                {
+                    datatextcontent = new Datatextcontent();
+                }
+                return datatextcontent;
+            }
         }
+        public DbSet<City> Varosok { get; set; }
+        public DbSet<Jaratok> Jaratok { get; set; }
 
+        public DbSet<Person> Felhasznalok { get; set; }
 
+        private Datatextcontent()
+        {
+            Database.EnsureCreated();
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
 
-            dbContextOptionsBuilder.UseSqlServer("Data Source=LAPTOP-5P62571S\\SQLEXPRESS;" +
-                                                        "Initial Catalog=jaratok;" +
-                                                       "Integrated Security=SSPI;");
+            dbContextOptionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=vasuthalozat;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
 
 
