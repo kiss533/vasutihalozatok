@@ -5840,26 +5840,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Suli\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\HP 250\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+      "projectUniqueName": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
       "projectName": "Vasutihalozatok",
-      "projectPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
-      "packagesPath": "C:\\Users\\Suli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suli\\Desktop\\vasutihalozatok\\Vasutihalozatok\\obj\\",
+      "projectPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+      "packagesPath": "C:\\Users\\HP 250\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Suli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HP 250\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5923,7 +5920,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
