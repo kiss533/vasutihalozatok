@@ -7,7 +7,7 @@ using Vasutihalozatok.Entity;
 
 namespace Vasutihalozatok.Auth
 {
-    interface IAuthenticator
+    public interface IAuthenticator
     {
 
         public delegate void LogoutDelegate();

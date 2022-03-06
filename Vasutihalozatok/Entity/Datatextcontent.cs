@@ -26,16 +26,23 @@ namespace Vasutihalozatok.Entity
         public DbSet<Jaratok> Jaratok { get; set; }
 
         public DbSet<Person> Felhasznalok { get; set; }
-
+        
         private Datatextcontent()
         {
             Database.EnsureCreated();
         }
-
+        
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
 
-            dbContextOptionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=vasuthalozat;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+//            dbContextOptionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=vasutitarsasag;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+
+            dbContextOptionsBuilder.UseSqlServer("Data Source=LAPTOP-5P62571S\\SQLEXPRESS;" +
+                                                        "Initial Catalog=vasutihalozatok;" +
+                                                       "Integrated Security=SSPI;");
+      
+        
+        
         }
 
 

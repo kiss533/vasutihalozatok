@@ -8,7 +8,7 @@ using Vasutihalozatok.Execptions;
 
 namespace Vasutihalozatok.Auth
 {
-    class UserAuthenticator : IAuthenticator
+    public sealed class UserAuthenticator : IAuthenticator
     {
         public event IAuthenticator.LogoutDelegate LogoutEvent;
 
@@ -34,7 +34,7 @@ namespace Vasutihalozatok.Auth
 
     }
 
-        public Person Authenticate(string username, string password)
+        public Person Aute(string username, string password)
         {
             Person? user = data.Felhasznalok.FirstOrDefault(user => user.nev == username);
             if (user == null)
@@ -45,13 +45,13 @@ namespace Vasutihalozatok.Auth
             {
                 throw new VasutExecption();
             }
-            LoggedInUser = user;
+            LogginPerson = user;
             return user;
         }
 
         public void Logout()
         {
-            LoggedInUser = null;
+            LogginPerson = null;
             LogoutEvent?.Invoke();
         }
     }

@@ -11,6 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
+using Vasutihalozatok.Entity;
+
+
 
 namespace Vasutihalozatok
 {
@@ -22,6 +26,44 @@ namespace Vasutihalozatok
         public Jaratok()
         {
             InitializeComponent();
+
+            List<Jaratok> jarat = new List<Jaratok>();
+
+
+            StreamReader reader = new StreamReader("railways.txt");
+
+            while(!reader.EndOfStream)
+            {
+                string sor = reader.ReadLine();
+                string[] soradatok = sor.Split(';');
+
+               City kiindul = new  City();
+
+                kiindul.varos = soradatok[0];
+
+
+                City megerkez = new City();
+
+                megerkez.varos = soradatok[1];
+
+
+                City betolt = new City();
+
+                int tavol = int.Parse(soradatok[2]);
+
+                Entity.Jaratok j = new Entity.Jaratok();
+
+                j.kiidnulo_varos = kiindul;
+                j.megerkezo_varos = megerkez;
+                j.Tavolsag = tavol;
+
+                reader.Close();
+              //  j.kiindulo_varos =
+
+
+            }
+
+
         }
     }
 }

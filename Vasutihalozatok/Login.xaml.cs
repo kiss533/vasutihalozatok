@@ -17,6 +17,7 @@ using Vasutihalozatok.Controller;
 using Vasutihalozatok.Execptions;
 
 
+
 namespace Vasutihalozatok
 {
     /// <summary>
@@ -44,8 +45,8 @@ namespace Vasutihalozatok
             try
             {
                 
-                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.jelszo);
-                RailwayPicker railwayPicker = new RailwayPicker(user.nev);
+                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Text);
+                RailwayPicker railwayPicker = new RailwayPicker();
                 railwayPicker.Left = this.Left;
                 railwayPicker.Top = this.Top;
                 RailwayPicker.GetWindow(railwayPicker).Show();
@@ -54,7 +55,9 @@ namespace Vasutihalozatok
             }
             catch (VasutExecption exc)
             {
-                MessageBox.Show(exc.Message, "Sikertelen bejelentkezés", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
+                    MessageBoxButton.OK, MessageBoxImage.Error
+                    );
             }
         }
         /*

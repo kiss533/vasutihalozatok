@@ -13,7 +13,7 @@ namespace Vasutihalozatok.Controller
         private IAuthenticator authenticator = UserAuthenticator.Instance;
         public Person HandleLoginAttempt(string username, string password)
         {
-            return authenticator.Authenticate(username, password);
+            return authenticator.Aute(username, password);
         }
     }
 }
