@@ -45,7 +45,7 @@ namespace Vasutihalozatok
             try
             {
                 
-                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Text);
+                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
                 RailwayPicker railwayPicker = new RailwayPicker();
                 railwayPicker.Left = this.Left;
                 railwayPicker.Top = this.Top;

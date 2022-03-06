@@ -34,13 +34,15 @@ namespace Vasutihalozatok
                 Person person = new Person()
                 {
                     nev = name.Text,
-                    jelszo = password.Text
+                    jelszo = jelszo.Password
                 };
 
                 datatextcontent.Felhasznalok.Add(person);
                 datatextcontent.SaveChanges();
-            
-            
+
+            Siker siker = new Siker();
+
+            siker.Show();
             }
     }
     }
