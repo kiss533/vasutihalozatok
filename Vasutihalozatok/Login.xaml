@@ -14,7 +14,7 @@
         <TextBox x:Name="z" HorizontalAlignment="Left" Margin="542,95,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btn_testDb" Height="100" Width="200" Margin="64,88,536,246" Click="btn_testDb_Click">Db Adat teszt</Button>
         <Button x:Name="regisgomb" Content="Ha még nincs fiokód kattins ide!" HorizontalAlignment="Left" Margin="542,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.766,2.604" Click="regisgomb_Click"/>
-        <Button Content="Új Járat létrehozása" HorizontalAlignment="Left" Margin="64,279,0,0" VerticalAlignment="Top" Height="111" Width="139"/>
+        <Button Content="Új Járat létrehozása" HorizontalAlignment="Left" Margin="64,279,0,0" VerticalAlignment="Top" Height="111" Width="139" Click="Button_Click"/>
         <PasswordBox x:Name="jelszo" HorizontalAlignment="Left" Margin="300,279,0,0" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Vasutihalozatok\Vasutihalozatok.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>

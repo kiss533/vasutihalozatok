@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using Vasutihalozatok.Entity;
 using Vasutihalozatok.Auth;
 using Vasutihalozatok.Controller;
+using admin;
 using Vasutihalozatok.Execptions;
 
 
@@ -42,23 +43,23 @@ namespace Vasutihalozatok
         {
               
 
-            try
-            {
-                
-                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
-                RailwayPicker railwayPicker = new RailwayPicker();
+           // try
+           // {
+              
+               // var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
+                Jaratok railwayPicker = new Jaratok();
                 railwayPicker.Left = this.Left;
                 railwayPicker.Top = this.Top;
-                RailwayPicker.GetWindow(railwayPicker).Show();
+                Jaratok.GetWindow(railwayPicker).Show();
                 this.Close();
                 
-            }
-            catch (VasutExecption exc)
+           // }
+         /*   catch (VasutExecption exc)
             {
                 MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
                     MessageBoxButton.OK, MessageBoxImage.Error
                     );
-            }
+            } */
         }
         /*
         private void btn_register_Click(object sender, RoutedEventArgs e)
@@ -84,6 +85,14 @@ namespace Vasutihalozatok
 
             Register reg = new Register();
             reg.Show();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            varosletrehozas let = 
+
 
         }
     }

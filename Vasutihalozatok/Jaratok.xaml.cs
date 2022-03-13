@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+
 using System.IO;
 using Vasutihalozatok.Entity;
 
@@ -27,7 +28,7 @@ namespace Vasutihalozatok
         {
             InitializeComponent();
 
-            List<Jaratok> jarat = new List<Jaratok>();
+            List<Entity.Jaratok> jarat = new List<Entity.Jaratok>();
 
 
             StreamReader reader = new StreamReader("railways.txt");
@@ -57,10 +58,18 @@ namespace Vasutihalozatok
                 j.megerkezo_varos = megerkez;
                 j.Tavolsag = tavol;
 
-                reader.Close();
-              //  j.kiindulo_varos =
+                //  j.kiindulo_varos =
+                jarat.Add(j);
 
+            }
 
+            reader.Close();
+
+            foreach (var item in jarat)
+            {
+                jarattabla.ItemsSource = jarat;
+            
+                
             }
 
 

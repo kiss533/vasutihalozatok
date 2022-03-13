@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\admin\admin.csproj" />
     <ProjectReference Include="..\Vasutihalozatok\Vasutihalozatok.csproj" />
   </ItemGroup>
 

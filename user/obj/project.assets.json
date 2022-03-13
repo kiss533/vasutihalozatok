@@ -1529,6 +1529,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "admin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.2",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Vasutihalozatok": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/admin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/admin.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Vasutihalozatok/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5848,6 +5867,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "admin/1.0.0": {
+      "type": "project",
+      "path": "../admin/admin.csproj",
+      "msbuildProject": "../admin/admin.csproj"
+    },
     "Vasutihalozatok/1.0.0": {
       "type": "project",
       "path": "../Vasutihalozatok/Vasutihalozatok.csproj",
@@ -5860,7 +5884,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
-      "Vasutihalozatok >= 1.0.0"
+      "Vasutihalozatok >= 1.0.0",
+      "admin >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5895,6 +5920,9 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
+            "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\admin\\admin.csproj": {
+              "projectPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\admin\\admin.csproj"
+            },
             "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj": {
               "projectPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj"
             }
