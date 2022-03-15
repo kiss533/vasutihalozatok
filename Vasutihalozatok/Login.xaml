@@ -16,5 +16,6 @@
         <Button x:Name="regisgomb" Content="Ha még nincs fiokód kattins ide!" HorizontalAlignment="Left" Margin="542,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.766,2.604" Click="regisgomb_Click"/>
         <Button Content="Új Járat létrehozása" HorizontalAlignment="Left" Margin="64,279,0,0" VerticalAlignment="Top" Height="111" Width="139" Click="Button_Click"/>
         <PasswordBox x:Name="jelszo" HorizontalAlignment="Left" Margin="300,279,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Rendezes" Content="Button" HorizontalAlignment="Left" Height="70" Margin="251,342,0,0" VerticalAlignment="Top" Width="87" Click="Rendezes_Click"/>
     </Grid>
 </Window>

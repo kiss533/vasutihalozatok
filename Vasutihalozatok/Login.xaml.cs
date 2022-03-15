@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using Vasutihalozatok.Entity;
 using Vasutihalozatok.Auth;
 using Vasutihalozatok.Controller;
-using admin;
+// using admin;
 using Vasutihalozatok.Execptions;
 
 
@@ -91,9 +91,16 @@ namespace Vasutihalozatok
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            varosletrehozas let = 
+       //     varosletrehozas let = 
 
 
+        }
+
+        private void Rendezes_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow win = new MainWindow();
+
+            win.Show();
         }
     }
 }
