@@ -11,7 +11,7 @@
         <Label Content="Adja meg melyik állomásról jött!" HorizontalAlignment="Left" Margin="45,187,0,0" VerticalAlignment="Top" Width="195"/>
         <Label Content="Adja meg melyik állomást érintse!" HorizontalAlignment="Left" Margin="45,247,0,0" VerticalAlignment="Top" Width="195"/>
         <TextBox HorizontalAlignment="Left" Margin="312,247,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
-        <Button Content="Választás" HorizontalAlignment="Left" Margin="621,356,0,0" VerticalAlignment="Top" Width="113"/>
+        <Button Content="Választás" HorizontalAlignment="Left" Margin="621,356,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click"/>
         <ComboBox x:Name="indulo" HorizontalAlignment="Left" Margin="358,137,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5">
             <ComboBox.RenderTransform>
                 <TransformGroup>

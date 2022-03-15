@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Üdvözlet" HorizontalAlignment="Left" Margin="292,95,0,0" VerticalAlignment="Top" Width="181"/>
+        <Button x:Name="inditas"  Content="Belépés" HorizontalAlignment="Left" Margin="220,246,0,0" VerticalAlignment="Top" Width="324" Click="inditas_Click"/>
 
     </Grid>
 </Window>

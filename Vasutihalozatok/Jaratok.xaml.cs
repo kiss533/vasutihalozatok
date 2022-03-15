@@ -24,9 +24,13 @@ namespace Vasutihalozatok
     /// </summary>
     public partial class Jaratok : Window
     {
+
+        private Datatextcontent datatextcontent = Datatextcontent.Instance;
         public Jaratok()
         {
-            InitializeComponent();
+           
+
+        InitializeComponent();
 
             List<Entity.Jaratok> jarat = new List<Entity.Jaratok>();
 
@@ -60,16 +64,33 @@ namespace Vasutihalozatok
 
                 //  j.kiindulo_varos =
                 jarat.Add(j);
-
+                datatextcontent.Jaratok.Add(j);
+               
+               // datatextcontent.SaveChanges();
+                
             }
 
             reader.Close();
 
+            var a = jarat.Select(x => x.kiidnulo_varos);               
+            var b = jarat.Select(x => x.megerkezo_varos).ToList();
+            var c = jarat.Select(x => x.Tavolsag).ToList();
+
+           
+
+            
+
             foreach (var item in jarat)
             {
-                jarattabla.ItemsSource = jarat;
-            
-                
+
+
+                              jarattabla.ItemsSource = a;
+
+                // jarattabla.Columns[0]  = a;
+
+             //  jarat.Select(x => x.kiidnulo_varos).ToList();
+              //  jarat.Select(x => x.megerkezo_varos).ToList();
+
             }
 
 

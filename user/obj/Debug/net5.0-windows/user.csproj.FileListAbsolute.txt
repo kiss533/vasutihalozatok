@@ -130,3 +130,11 @@ C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\user.dll
 C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\ref\user.dll
 C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\user.pdb
 C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\user.genruntimeconfig.cache
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.deps.json
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.runtimeconfig.json
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.runtimeconfig.dev.json
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.exe
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.dll
+C:\Users\HP 250\Downloads\vasutihalozatok\user\bin\Debug\net5.0-windows\admin.pdb
+C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\Login.g.cs
+C:\Users\HP 250\Downloads\vasutihalozatok\user\obj\Debug\net5.0-windows\Login.baml

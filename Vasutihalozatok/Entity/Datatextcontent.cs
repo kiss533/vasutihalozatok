@@ -10,7 +10,7 @@ namespace Vasutihalozatok.Entity
     public class Datatextcontent : DbContext
     {
         private static Datatextcontent datatextcontent;
-
+        
         public static Datatextcontent Instance
         {
             get
@@ -22,6 +22,7 @@ namespace Vasutihalozatok.Entity
                 return datatextcontent;
             }
         }
+        
         public DbSet<City> Varosok { get; set; }
         public DbSet<Jaratok> Jaratok { get; set; }
 

@@ -8,7 +8,7 @@
         Title="Login" Height="450" Width="800">
     <Grid x:Name="jart">
         <Label Content="A folytatáshoz be kell jelentkeznie!" HorizontalAlignment="Left" Margin="288,36,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="author" HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="587,382,0,0" Width="153" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="felhasznalonev" HorizontalAlignment="Left" Margin="300,199,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="z" HorizontalAlignment="Left" Margin="542,95,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

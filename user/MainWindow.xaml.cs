@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Vasutihalozatok.Controller;
+using Vasutihalozatok;
 namespace user
 {
     /// <summary>
@@ -34,6 +35,12 @@ namespace user
             Console.WriteLine("A bírt jelszó egyezik? " + BCrypt.Net.BCrypt.Verify(loginPassword, hashedPassword));
         }
 
+        private void inditas_Click(object sender, RoutedEventArgs e)
+        {
+            Login l = new Login();
+
+            l.Show();
+        }
     }
 }
 

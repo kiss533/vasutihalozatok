@@ -64,6 +64,7 @@ namespace Vasutihalozatok
 
                 varosok.Add(megerkez);
                 datatextcontent.Varosok.Add(megerkez);
+            //    datatextcontent.SaveChanges();
 
             }
 
@@ -80,6 +81,15 @@ namespace Vasutihalozatok
 
 
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            Jaratok j = new Jaratok();
+
+            j.Show();
+
         }
     }
 }

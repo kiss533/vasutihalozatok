@@ -33,10 +33,11 @@ namespace Vasutihalozatok.Auth
             }
 
     }
-
+        
         public Person Aute(string username, string password)
         {
-            Person? user = data.Felhasznalok.FirstOrDefault(user => user.nev == username);
+            
+            Person? user = data.Felhasznalok.FirstOrDefault(user => user.felhasznalonev == username);
             if (user == null)
             {
                 throw new VasutExecption();
@@ -47,12 +48,15 @@ namespace Vasutihalozatok.Auth
             }
             LogginPerson = user;
             return user;
+           
         }
-
+    
         public void Logout()
         {
             LogginPerson = null;
             LogoutEvent?.Invoke();
         }
+    
+    
     }
 }

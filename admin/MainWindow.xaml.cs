@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Vasutihalozatok;
 
 namespace admin
 {
@@ -23,6 +24,20 @@ namespace admin
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            varosletrehozas varos = new varosletrehozas();
+            varos.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Jaratok railwayPicker = new Jaratok();
+            railwayPicker.Left = this.Left;
+            railwayPicker.Top = this.Top;
+            Jaratok.GetWindow(railwayPicker).Show();
         }
     }
 }

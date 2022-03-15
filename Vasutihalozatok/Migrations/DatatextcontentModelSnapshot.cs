@@ -66,6 +66,12 @@ namespace Vasutihalozatok.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("felhasznalonev")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("jelszo")
                         .HasColumnType("nvarchar(max)");
 

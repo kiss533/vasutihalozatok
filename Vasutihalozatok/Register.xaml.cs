@@ -34,6 +34,8 @@ namespace Vasutihalozatok
                 Person person = new Person()
                 {
                     nev = name.Text,
+                    felhasznalonev = felhasznalomezo.Text,
+                    email = eamilmezo.Text,
                     jelszo = jelszo.Password
                 };
 

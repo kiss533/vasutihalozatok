@@ -34,6 +34,8 @@ namespace Vasutihalozatok
         {
             InitializeComponent();
 
+          
+
 
             // jart.IsVisible = false;
         }
@@ -42,24 +44,31 @@ namespace Vasutihalozatok
         private void btn_testDb_Click(object sender, RoutedEventArgs e)
         {
               
-
-           // try
-           // {
+            /*
+            try
+            {
               
-               // var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
+               var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
+              
+                
+                
                 Jaratok railwayPicker = new Jaratok();
                 railwayPicker.Left = this.Left;
                 railwayPicker.Top = this.Top;
                 Jaratok.GetWindow(railwayPicker).Show();
                 this.Close();
+
+
                 
-           // }
-         /*   catch (VasutExecption exc)
+            }
+            /*
+            catch (VasutExecption exc)
             {
                 MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
                     MessageBoxButton.OK, MessageBoxImage.Error
                     );
-            } */
+            } 
+            */
         }
         /*
         private void btn_register_Click(object sender, RoutedEventArgs e)
@@ -91,7 +100,7 @@ namespace Vasutihalozatok
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-       //     varosletrehozas let = 
+       //  varosletrehozas let = 
 
 
         }
@@ -101,6 +110,16 @@ namespace Vasutihalozatok
             MainWindow win = new MainWindow();
 
             win.Show();
+        }
+
+
+        string[] elerhetoseg = new string[] { "user", "admin" };
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+
+
         }
     }
 }

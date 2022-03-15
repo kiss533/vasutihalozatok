@@ -10,6 +10,9 @@ namespace Vasutihalozatok.Entity
     {
         public string nev { get; set; }
         enum allas { user, admin };
+        public string email { get; set; }
+        public string felhasznalonev { get; set; }
         public string jelszo { get; set; }
+        
     }
 }

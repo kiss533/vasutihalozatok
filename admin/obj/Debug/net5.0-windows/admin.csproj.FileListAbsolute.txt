@@ -130,3 +130,5 @@ C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\admin.d
 C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\ref\admin.dll
 C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\admin.pdb
 C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\admin.genruntimeconfig.cache
+C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\varosletrehozas.g.cs
+C:\Users\HP 250\Downloads\vasutihalozatok\admin\obj\Debug\net5.0-windows\varosletrehozas.baml
