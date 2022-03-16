@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:admin"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" Width="382" Height="136" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="154" Width="382" Click="Button_Click_1"/>
+    <Grid x:Name="admin">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="373*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Uj_varos_letrehozása" Content="Új város létrehozása" HorizontalAlignment="Left" Margin="155,29,0,0" VerticalAlignment="Top" Width="382" Height="136" Click="Button_Click" Grid.Column="1"/>
+        <Button Content="Járatok megtekintése" HorizontalAlignment="Left" Margin="155,217,0,0" VerticalAlignment="Top" Height="154" Width="382" Click="Button_Click_1" Grid.Column="1"/>
 
     </Grid>
 </Window>

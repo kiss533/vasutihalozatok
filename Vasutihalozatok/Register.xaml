@@ -8,8 +8,7 @@
         Title="Register" Height="450" Width="800">
     <Grid x:Name="jart">
         <TextBox x:Name="name" HorizontalAlignment="Left" Margin="308,87,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="522,173,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_testDb" Margin="544,317,101,53" Click="btn_testDb_Click" Content="Belépés"/>
+        <Button x:Name="btn_testDb" Margin="544,317,101,53" Click="btn_testDb_Click" Content="Fiók létrehozása"/>
         <TextBox x:Name="felhasznalomezo" HorizontalAlignment="Left" Margin="308,164,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="eamilmezo" HorizontalAlignment="Left" Margin="308,217,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Név" HorizontalAlignment="Left" Margin="111,87,0,0" VerticalAlignment="Top"/>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W6SKQLtH1i8Vfv7UwQzGOBMVtKhpazalV66RW61vwOOe3yCRYFvBeTPv56XEmK+7qQ0BIQSKLdVgSPWQW6yb/Q==",
+  "dgSpecHash": "sN1e4n+VcBsbJXE9q7pnvQMxLdLOwg9oaygO/7ury3n3YiTLlwRc+f4zsybBHDC93/5jJqYIJPG/Tk6DjEHiPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\admin\\admin.csproj",
+  "projectFilePath": "C:\\Users\\HP 250\\Documents\\vasutihalozatok\\admin\\admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP 250\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\HP 250\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

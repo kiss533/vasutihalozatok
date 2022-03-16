@@ -5846,11 +5846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+      "projectUniqueName": "C:\\Users\\HP 250\\Documents\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
       "projectName": "Vasutihalozatok",
-      "projectPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
+      "projectPath": "C:\\Users\\HP 250\\Documents\\vasutihalozatok\\Vasutihalozatok\\Vasutihalozatok.csproj",
       "packagesPath": "C:\\Users\\HP 250\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP 250\\Downloads\\vasutihalozatok\\Vasutihalozatok\\obj\\",
+      "outputPath": "C:\\Users\\HP 250\\Documents\\vasutihalozatok\\Vasutihalozatok\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

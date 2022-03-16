@@ -9,9 +9,7 @@
     <Grid x:Name="jart">
         <Label Content="A folytatáshoz be kell jelentkeznie!" HorizontalAlignment="Left" Margin="288,36,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="author" HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
-        <TextBlock HorizontalAlignment="Left" Margin="587,382,0,0" Width="153" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="felhasznalonev" HorizontalAlignment="Left" Margin="300,199,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="z" HorizontalAlignment="Left" Margin="542,95,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="felhasznalonev" HorizontalAlignment="Left" Margin="300,199,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btn_testDb" Height="100" Width="200" Margin="64,88,536,246" Click="btn_testDb_Click">Db Adat teszt</Button>
         <Button x:Name="regisgomb" Content="Ha még nincs fiokód kattins ide!" HorizontalAlignment="Left" Margin="542,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.766,2.604" Click="regisgomb_Click"/>
         <Button Content="Új Járat létrehozása" HorizontalAlignment="Left" Margin="64,279,0,0" VerticalAlignment="Top" Height="111" Width="139" Click="Button_Click"/>

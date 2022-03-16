@@ -73,6 +73,11 @@ namespace Vasutihalozatok
                 /*
                 this.Close();
                 */
+
+
+            } else
+            {
+                MessageBox.Show("Adja meg melyik felületen, akar lenni!");
             }
                 
             }
