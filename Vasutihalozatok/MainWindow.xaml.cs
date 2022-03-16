@@ -64,7 +64,7 @@ namespace Vasutihalozatok
 
                 varosok.Add(megerkez);
                 datatextcontent.Varosok.Add(megerkez);
-            //    datatextcontent.SaveChanges();
+                datatextcontent.SaveChanges();
 
             }
 

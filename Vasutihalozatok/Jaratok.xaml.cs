@@ -66,7 +66,7 @@ namespace Vasutihalozatok
                 jarat.Add(j);
                 datatextcontent.Jaratok.Add(j);
                
-               // datatextcontent.SaveChanges();
+                datatextcontent.SaveChanges();
                 
             }
 
@@ -85,7 +85,11 @@ namespace Vasutihalozatok
             {
 
 
-                              jarattabla.ItemsSource = jarat.ToList();
+                //  jarattabla.ItemsSource = kiindulo;
+
+
+                jarattabla.ItemsSource = jarat;
+                             // listak.Text = item.kiidnulo_varos;
 
                 // jarattabla.Columns[0]  = a;
 

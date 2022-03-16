@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vasutihalozatok.Execptions
 {
-    class VasutExecption : Exception
+ public  class VasutExecption : Exception
     {
     }
 }

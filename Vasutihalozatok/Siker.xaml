@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="Siker" Height="450" Width="800">
     <Grid>
-        <ListBox/>
+        <ListBox>
+            <Label Content="Sikeres Regisztráció" Height="80" Width="677"/>
+        </ListBox>
 
     </Grid>
 </Window>

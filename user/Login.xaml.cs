@@ -61,7 +61,7 @@ namespace Vasutihalozatok
               //  railwayPicker.Show();
 
             }
-            if (author.Text == "user") {
+          else  if (author.Text == "user") {
 
                 
                 var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
@@ -82,10 +82,10 @@ namespace Vasutihalozatok
             }
                 
             }
-            catch (VasutExecption exc)
+            catch (VasutExecption)
             {
                 
-                MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
+                MessageBox.Show("Hibás felhasználónév vagy jelszó!", "Sikertelen bejelentkezés",
                     MessageBoxButton.OK, MessageBoxImage.Error
                     ); 
 

@@ -28,14 +28,22 @@ namespace admin
         private Datatextcontent datatextcontent = Datatextcontent.Instance;
         private void Varos_letrehozasa_Click(object sender, RoutedEventArgs e)
         {
-                City cities = new City()
+            if (letrehoz.Text != "")
             {
-                  varos =   letrehoz.Text 
+                City cities = new City()
+                {
+                    varos = letrehoz.Text
 
-            };
+                };
 
-            datatextcontent.Add(cities);
-            datatextcontent.SaveChanges();
+                datatextcontent.Add(cities);
+                datatextcontent.SaveChanges();
+
+                Eredmeny.Content = "Város létrehozva!";
+            }else
+            {
+                Eredmeny.Content =  "Kérem adjon meg egy várost!";
+            }
         }
     }
 }

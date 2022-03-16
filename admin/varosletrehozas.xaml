@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="varosletrehozas" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="letrehoz" HorizontalAlignment="Left" Margin="217,72,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="273"/>
+        <TextBox x:Name="letrehoz" HorizontalAlignment="Left" Margin="217,72,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="273"/>
         <Label Content="Adjon hozzá egy várost!" HorizontalAlignment="Left" Margin="54,63,0,0" VerticalAlignment="Top"/>
         <Button x:Name="Varos_letrehozasa" Content="Város létrehozása" HorizontalAlignment="Left" Margin="605,333,0,0" VerticalAlignment="Top" Width="115" Click="Varos_letrehozasa_Click"/>
+        <Label x:Name="Eredmeny" Content="" HorizontalAlignment="Left" Margin="145,322,0,0" VerticalAlignment="Top" Width="209"/>
 
     </Grid>
 </Window>
