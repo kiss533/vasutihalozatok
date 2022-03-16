@@ -13,5 +13,8 @@
         <Button x:Name="btn_testDb" Margin="488,234,142,137" Click="btn_testDb_Click">Belépés</Button>
         <Button x:Name="regisgomb" Content="Ha még nincs fiokód kattins ide!" HorizontalAlignment="Left" Margin="162,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.766,2.604" Click="regisgomb_Click"/>
         <PasswordBox x:Name="jelszo" HorizontalAlignment="Left" Margin="300,279,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Felhasználónév" HorizontalAlignment="Left" Margin="183,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.39,-0.068" Width="99"/>
+        <Label Content="Jelszó" HorizontalAlignment="Left" Margin="183,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.39,-0.068" Width="99"/>
+        <Label Content="Felület" HorizontalAlignment="Left" Margin="183,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.39,-0.068" Width="99"/>
     </Grid>
 </Window>

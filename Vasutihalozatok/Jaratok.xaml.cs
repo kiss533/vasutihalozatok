@@ -71,20 +71,21 @@ namespace Vasutihalozatok
             }
 
             reader.Close();
-
+            /*
             var a = jarat.Select(x => x.kiidnulo_varos);               
-            var b = jarat.Select(x => x.megerkezo_varos).ToList();
-            var c = jarat.Select(x => x.Tavolsag).ToList();
+          //  var b = jarat.Select(x => x.megerkezo_varos).ToList();
+           // var c = jarat.Select(x => x.Tavolsag).ToList();
+           var jaratas = from item in jarat select $"{item.kiidnulo_varos} \t {item.megerkezo_varos} \t {item.Tavolsag}";
 
-           
+            */
 
-            
+
 
             foreach (var item in jarat)
             {
 
 
-                              jarattabla.ItemsSource = a;
+                              jarattabla.ItemsSource = jarat.ToList();
 
                 // jarattabla.Columns[0]  = a;
 
