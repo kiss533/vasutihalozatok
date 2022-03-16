@@ -46,14 +46,14 @@ namespace Vasutihalozatok
         {
 
 
-            //try
-            // {
+            try
+             {
             if (author.Text == "admin") {
                 
-               // var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
+                var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
                 admin.MainWindow railwayPicker = new admin.MainWindow();
-                // railwayPicker.Left = this.Left;
-                // railwayPicker.Top = this.Top;
+                 railwayPicker.Left = this.Left;
+                 railwayPicker.Top = this.Top;
                  GetWindow(railwayPicker).Show();
 
                 //this.Close();
@@ -63,16 +63,17 @@ namespace Vasutihalozatok
             }
             if (author.Text == "user") {
 
-                /*
+                
                 var user = loginController.HandleLoginAttempt(felhasznalonev.Text, jelszo.Password);
-                Jaratok railwayPicker = new Jaratok();
-                railwayPicker.Left = this.Left;
-                railwayPicker.Top = this.Top; */
+                //  Jaratok railwayPicker = new Jaratok();
                 Vasutihalozatok.MainWindow railwayPicker = new Vasutihalozatok.MainWindow();
+                railwayPicker.Left = this.Left;
+                railwayPicker.Top = this.Top; 
+             //  
                 GetWindow(railwayPicker).Show();
-                /*
+                
                 this.Close();
-                */
+                
 
 
             } else
@@ -81,7 +82,7 @@ namespace Vasutihalozatok
             }
                 
             }
-          /*  catch (VasutExecption exc)
+            catch (VasutExecption exc)
             {
                 
                 MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
@@ -89,8 +90,8 @@ namespace Vasutihalozatok
                     ); 
 
                // MessageBox.Show("Sikertelen bejelentkezés");
-            } */
-       // } 
+            }
+            } 
         /*
         private void btn_register_Click(object sender, RoutedEventArgs e)
         {

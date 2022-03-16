@@ -44,7 +44,7 @@ namespace Vasutihalozatok
         private void btn_testDb_Click(object sender, RoutedEventArgs e)
         {
               
-            /*
+            
             try
             {
               
@@ -61,14 +61,14 @@ namespace Vasutihalozatok
 
                 
             }
-            /*
+            
             catch (VasutExecption exc)
             {
                 MessageBox.Show(exc.Message, "Sikertelen bejelentkezés",
                     MessageBoxButton.OK, MessageBoxImage.Error
                     );
             } 
-            */
+            
         }
         /*
         private void btn_register_Click(object sender, RoutedEventArgs e)

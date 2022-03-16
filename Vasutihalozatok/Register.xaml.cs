@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Vasutihalozatok.Entity;
+using Vasutihalozatok.Execptions;
 
 namespace Vasutihalozatok
 {
@@ -30,21 +31,29 @@ namespace Vasutihalozatok
         private void btn_testDb_Click(object sender, RoutedEventArgs e)
         {
 
-            
+            try
+            {
                 Person person = new Person()
                 {
                     nev = name.Text,
                     felhasznalonev = felhasznalomezo.Text,
                     email = eamilmezo.Text,
-                    jelszo = jelszo.Password
+                    jelszo = BCrypt.Net.BCrypt.HashPassword(jelszo.Password)
                 };
 
                 datatextcontent.Felhasznalok.Add(person);
                 datatextcontent.SaveChanges();
 
-            Siker siker = new Siker();
+                Siker siker = new Siker();
 
-            siker.Show();
+                siker.Show();
+
+
+            }
+            catch (VasutExecption v)
+            {
+                MessageBox.Show("Rossz regisztálás!");
+            }
             }
     }
     }
